@@ -16,5 +16,11 @@ public class TestsBasicos {
 		calc.Sumar(2,3);
 		assertEquals(5, calc.Valor());
 	}
-
+	
+	@Test
+	public void Sumar_4_mas_3_debe_dar_7() {
+		Calculadora calc = new Calculadora();
+		calc.Sumar(4,3);
+		assertEquals(7, calc.Valor());
+	}
 }

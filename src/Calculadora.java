@@ -9,7 +9,7 @@ public class Calculadora {
 	}
 
 	public void Sumar(int i, int j) {
-		valor=5;				
+		valor=i+j;
 	}
 
 }
