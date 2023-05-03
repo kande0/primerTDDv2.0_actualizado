@@ -8,8 +8,8 @@ public class Calculadora {
 		return valor;
 	}
 
-	public void Sumar(int i, int j) {
-		valor=i+j;
+	public void Sumar(int primerSumando, int segundoSumando) {
+		valor=primerSumando+segundoSumando;
 	}
 
 }
