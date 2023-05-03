@@ -8,7 +8,7 @@ public class Calculadora {
 		return valor;
 	}
 
-	public void Sumar(int primerSumando, int segundoSumando) {
+	public void Sumar_CarlosBlascoEspada(int primerSumando, int segundoSumando) {
 		valor=primerSumando+segundoSumando;
 	}
 
