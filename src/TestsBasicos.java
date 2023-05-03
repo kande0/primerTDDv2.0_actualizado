@@ -9,5 +9,12 @@ public class TestsBasicos {
 		Calculadora calc = new Calculadora();
 		assertEquals(0, calc.Valor());
 	}
+	
+	@Test
+	public void Sumar_2_mas_3_debe_dar_5() {
+		Calculadora calc = new Calculadora();
+		calc.Sumar(2,3);
+		assertEquals(5, calc.Valor());
+	}
 
 }

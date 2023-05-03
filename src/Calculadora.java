@@ -1,9 +1,15 @@
 
 public class Calculadora {
 
+	private int valor=0;
+	
 	public int Valor() {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		return valor;
+	}
+
+	public void Sumar(int i, int j) {
+		valor=5;				
 	}
 
 }
